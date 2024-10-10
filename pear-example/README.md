@@ -1,5 +1,25 @@
 # Pear Example
 
+### Quickstart for the Speedrunners
+
+1. Open Two Terminals. Put this into the first one:
+```bash
+npm i -g pear
+npm install hyperswarm hypercore-crypto b4a
+pear run --dev .
+```
+
+2. Now put this in the second one:
+```bash
+pear run --dev .
+```
+
+3. Click "Create" in one of the terminals
+4. Copy and Paste the topic string into the second terminal
+5. Join
+6. ????
+7. Pear to Pear
+
 ### Why Fruit is So Nutritious 
 
 Please watch [these videos](https://www.youtube.com/watch?v=y2G97xz78gU&list=PLEZwCXa1K8Q629mWmpcSYCVMDoi0s8hzI&pp=iAQB) to see the founders demonstrate their remarkable work
@@ -20,6 +40,46 @@ We start with snailmail which is a faithful fork of the pear you find in this di
 
 ### Getting Started 
 
+Let us obtain fig via the customary git symbolic invocation
+
 ```bash
-git clone 
+git clone https://github.com/AccKaspa/fig.git
+cd fig
+```
+
+If you do not have npm, please install it by doing a variation on the following to be found [here](https://nodejs.org/en/download/package-manager):
+This should work for linux. 
+
+For those who are new to this: welcome. Nvm is a version manager that we will use to install a package manager that we will use to get javascript code that others have been so kind to make available for us. Pear and Bare and all the rest are such treasures which we are so enriched to have at our disposal, surely. The node runtime comes along with it, but since we are building fig on pear, we wish to focus on bare as our runtime. The founders of Pear are very familiar with node and so if they have moved onto new horizons, we would be wise to follow suit.
+
+```bash
+# installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+# download and install Node.js (you may need to restart the terminal)
+nvm install 22
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v22.9.0`
+
+# verifies the right npm version is in the environment
+npm -v # should print `10.8.3`
+```
+
+For more information on installing pear [see](https://docs.pears.com/guides/getting-started)
+In summary:
+```bash
+npm i -g pear
+```
+
+Because bare is built moduarly, you will often find yourself needing npm to install depenencies when building with Pear.
+In order to run the project here, we shall necessarily invoke:
+```bash
+npm install hyperswarm hypercore-crypto b4a
+``` 
+
+At this point, we can now begin running our app. Before that, a word on just what is here. If you have watched the videos in the very first link of this README, you will know what is about to happen. If not: here is a very basic peer to peer chat app that creates a hash. A second client app using this pear can utilize that hash in order to join the chatroom. One should run the following command in two seperate terminal windows or with a friend on a lovely call to investigate with phenomenological satuaration. 
+
+```bash
+pear run --dev .
 ```
