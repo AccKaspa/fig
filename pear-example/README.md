@@ -1,5 +1,7 @@
 # Pear Example
 
+### Why Fruit is So Nutritious 
+
 Please watch [these videos](https://www.youtube.com/watch?v=y2G97xz78gU&list=PLEZwCXa1K8Q629mWmpcSYCVMDoi0s8hzI&pp=iAQB) to see the founders demonstrate their remarkable work
  
 The code used here can be found documented [here](https://docs.pears.com/guides/making-a-pear-desktop-app)
@@ -16,4 +18,8 @@ We Snails wish to integrate fig and pear with iron on rust. The inspired founder
 
 We start with snailmail which is a faithful fork of the pear you find in this directory. If I imagine what fig on pear will taste like, I come to see Holders of the KRC-20 token $FAST gaining the ability to sign their messages with their same private key that shows they are who they are on the Iron on Rust kaspa network. We snails will bring our slime to complex networks beyond the block while sublimating their structural principles towards new heights of sacchrine effervescence. May we transcend our old networks on the very same hardware that we could hitherto not imagine working otherwise. 
 
- 
+### Getting Started 
+
+```bash
+git clone 
+```
