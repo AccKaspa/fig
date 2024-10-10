@@ -54,9 +54,9 @@ cd fig/pear-example
 
 If you do not have npm, please install it by doing a variation on the following to be found [here](https://nodejs.org/en/download/package-manager):
 
-This should work for linux. 
-
 For those who are new to this: welcome. Nvm is a version manager that we will use to install a package manager that we will use to get javascript code that others have been so kind to make available for us. Pear and Bare and all the rest are such treasures which we are so enriched to have at our disposal, surely. The node runtime comes along with it, but since we are building fig on pear, we wish to focus on bare as our runtime. The founders of Pear are very familiar with node and so if they have moved onto new horizons, we would be wise to follow suit.
+
+This should work for Linux. 
 
 ```bash
 # installs nvm (Node Version Manager)
@@ -90,7 +90,7 @@ npm install hyperswarm hypercore-crypto b4a
 
 At this point, we can now begin running our app. Before that, a word on just what is here. If you have watched the videos in the very first link of this README, you will know what is about to happen. If not: here is a very basic peer to peer chat app that creates a hash. A second client app using this pear can utilize that hash in order to join the chatroom. One should run the following command in two seperate terminal windows if using the run --dev . method or with a friend on a lovely call to investigate with phenomenological satuaration. However, it is left as an exercise to the reader to watch the Pear Founders show you how to bring this pear beyond the local development environment...
 
-For quickly getting started with pear to pear a local machine, invoke from two different terminals
+For quickly getting started with pear to pear from a local machine, invoke from two different terminals
 ```bash
 pear run --dev .
 ```
