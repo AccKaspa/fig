@@ -88,8 +88,11 @@ In order to run the project here, we shall necessarily invoke:
 npm install hyperswarm hypercore-crypto b4a
 ``` 
 
-At this point, we can now begin running our app. Before that, a word on just what is here. If you have watched the videos in the very first link of this README, you will know what is about to happen. If not: here is a very basic peer to peer chat app that creates a hash. A second client app using this pear can utilize that hash in order to join the chatroom. One should run the following command in two seperate terminal windows or with a friend on a lovely call to investigate with phenomenological satuaration. 
+At this point, we can now begin running our app. Before that, a word on just what is here. If you have watched the videos in the very first link of this README, you will know what is about to happen. If not: here is a very basic peer to peer chat app that creates a hash. A second client app using this pear can utilize that hash in order to join the chatroom. One should run the following command in two seperate terminal windows if using the run --dev . method or with a friend on a lovely call to investigate with phenomenological satuaration. However, it is left as an exercise to the reader to watch the Pear Founders show you how to bring this pear beyond the local development environment...
 
+For quickly getting started with pear to pear a local machine, invoke from two different terminals
 ```bash
 pear run --dev .
 ```
+
+As fig is launched on Pear, natural explantions of these processes will arrive as documentation. In the meantime, to connect beyond the local machine, learn what Bare can offer you through Pear. Open source is more about opening you up to the power of your imagination moreso than any lingusitic shuffling of the mere software. Part of discovering the power of the imagination is discover the generating force of the source for yourself.
