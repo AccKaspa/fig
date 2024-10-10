@@ -4,7 +4,12 @@
 
 1. Open Two Terminals. Put this into the first one:
 ```bash
+git clone https://github.com/AccKaspa/fig.git
+cd fig/pear-example
 npm i -g pear
+pear
+RC=~/.bashrc #set as you see fit
+echo 'export PATH="~/.config/pear/bin:$PATH"' >> $RC
 npm install hyperswarm hypercore-crypto b4a
 pear run --dev .
 ```
@@ -44,7 +49,7 @@ Let us obtain fig via the customary git symbolic invocation
 
 ```bash
 git clone https://github.com/AccKaspa/fig.git
-cd fig
+cd fig/pear-example
 ```
 
 If you do not have npm, please install it by doing a variation on the following to be found [here](https://nodejs.org/en/download/package-manager):
