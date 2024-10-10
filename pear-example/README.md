@@ -48,6 +48,7 @@ cd fig
 ```
 
 If you do not have npm, please install it by doing a variation on the following to be found [here](https://nodejs.org/en/download/package-manager):
+
 This should work for linux. 
 
 For those who are new to this: welcome. Nvm is a version manager that we will use to install a package manager that we will use to get javascript code that others have been so kind to make available for us. Pear and Bare and all the rest are such treasures which we are so enriched to have at our disposal, surely. The node runtime comes along with it, but since we are building fig on pear, we wish to focus on bare as our runtime. The founders of Pear are very familiar with node and so if they have moved onto new horizons, we would be wise to follow suit.
@@ -67,13 +68,17 @@ npm -v # should print `10.8.3`
 ```
 
 For more information on installing pear [see](https://docs.pears.com/guides/getting-started)
+
 In summary:
+
 ```bash
 npm i -g pear
 ```
 
 Because bare is built moduarly, you will often find yourself needing npm to install depenencies when building with Pear.
+
 In order to run the project here, we shall necessarily invoke:
+
 ```bash
 npm install hyperswarm hypercore-crypto b4a
 ``` 
