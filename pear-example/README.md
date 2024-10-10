@@ -18,12 +18,12 @@ pear run --dev .
 ```bash
 pear run --dev .
 ```
-
-3. Click "Create" in one of the terminals
-4. Copy and Paste the topic string into the second terminal
-5. Join
-6. ????
-7. Pear to Pear
+3. Resize/Move the terminals to be side by side
+4. Click "Create" in one of the terminals
+5. Copy and Paste the topic string into the second terminal
+6. Join
+7. ????
+8. Pear to Pear
 
 ### Why Fruit is So Nutritious 
 
